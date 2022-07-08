@@ -175,42 +175,6 @@
                 },
                 "type": "drupal-module"
             }
-        },
-        "drupal/openkj": {
-            "dev-8.x-1.x": {
-                "name": "drupal/openkj",
-                "version": "dev-8.x-1.x",
-                "version_normalized": "dev-8.x-1.x",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/generalredneck/OpenKJ-Drupal-Integration.git",
-                    "reference": "4863dc2bba063d6e3aface4ef9b13086d3d2818f"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/generalredneck/OpenKJ-Drupal-Integration/zipball/4863dc2bba063d6e3aface4ef9b13086d3d2818f",
-                    "reference": "4863dc2bba063d6e3aface4ef9b13086d3d2818f",
-                    "shasum": ""
-                },
-                "require": {
-                    "drupal/restui": "^1.16",
-                    "drupal/search_api": "^1.0"
-                },
-                "time": "2021-06-12T21:26:05+00:00",
-                "type": "drupal-module",
-                "license": [
-                    "GPL-2.0+"
-                ],
-                "description": "OpenKJ Integration",
-                "homepage": "https://www.drupal.org/project/openkj",
-                "keywords": [
-                    "Drupal"
-                ],
-                "support": {
-                    "issues": "https://www.drupal.org/project/issues/openkj",
-                    "source": "http://cgit.drupalcode.org/openkj"
-                }
-            }
         }
     }
 }
