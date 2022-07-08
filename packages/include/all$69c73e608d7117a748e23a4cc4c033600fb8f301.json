@@ -1,0 +1,216 @@
+{
+    "packages": {
+        "drupal-library/blazy": {
+            "1.8.2": {
+                "name": "drupal-library/blazy",
+                "version": "1.8.2",
+                "version_normalized": "1.8.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/dinbror/blazy/archive/1.8.2.zip"
+                },
+                "require": {
+                    "composer/installers": "^1.2.0"
+                },
+                "type": "drupal-library"
+            }
+        },
+        "drupal-library/c3": {
+            "v0.4.18": {
+                "name": "drupal-library/c3",
+                "version": "v0.4.18",
+                "version_normalized": "0.4.18.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/c3js/c3/archive/v0.4.18.zip"
+                },
+                "type": "drupal-library",
+                "extra": {
+                    "installer-name": "c3"
+                }
+            }
+        },
+        "drupal-library/ckeditor-templates": {
+            "4.16.1": {
+                "name": "drupal-library/ckeditor-templates",
+                "version": "4.16.1",
+                "version_normalized": "4.16.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://download.ckeditor.com/templates/releases/templates_4.16.1.zip"
+                },
+                "require": {
+                    "composer/installers": "^1.2.0"
+                },
+                "type": "drupal-library",
+                "extra": {
+                    "installer-name": "templates"
+                }
+            }
+        },
+        "drupal-library/ckeditor-wordcount-plugin": {
+            "1.17.8": {
+                "name": "drupal-library/ckeditor-wordcount-plugin",
+                "version": "1.17.8",
+                "version_normalized": "1.17.8.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/w8tcha/CKEditor-WordCount-Plugin/releases/download/v1.17.8/CKEditor-WordCount-Plugin.zip"
+                },
+                "type": "drupal-library"
+            }
+        },
+        "drupal-library/d3": {
+            "v3.5.17": {
+                "name": "drupal-library/d3",
+                "version": "v3.5.17",
+                "version_normalized": "3.5.17.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/d3/d3/archive/v3.5.17.zip"
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "type": "drupal-library",
+                "extra": {
+                    "installer-name": "d3"
+                }
+            }
+        },
+        "drupal-library/dropzone": {
+            "5.7.6": {
+                "name": "drupal-library/dropzone",
+                "version": "5.7.6",
+                "version_normalized": "5.7.6.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/dropzone/dropzone/releases/download/v5.7.6/dist.zip"
+                },
+                "type": "drupal-library",
+                "extra": {
+                    "installer-name": "dropzone/dist"
+                }
+            },
+            "5.9.2": {
+                "name": "drupal-library/dropzone",
+                "version": "5.9.2",
+                "version_normalized": "5.9.2.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/dropzone/dropzone/releases/download/v5.9.2/dist.zip"
+                },
+                "type": "drupal-library",
+                "extra": {
+                    "installer-name": "dropzone/dist"
+                }
+            }
+        },
+        "drupal-library/imagesloaded": {
+            "3.1.8": {
+                "name": "drupal-library/imagesloaded",
+                "version": "3.1.8",
+                "version_normalized": "3.1.8.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/desandro/imagesloaded/archive/v3.1.8.zip"
+                },
+                "type": "drupal-library"
+            }
+        },
+        "drupal-library/jquery-ui-touch-punch": {
+            "1.0.0": {
+                "name": "drupal-library/jquery-ui-touch-punch",
+                "version": "1.0.0",
+                "version_normalized": "1.0.0.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/furf/jquery-ui-touch-punch/archive/refs/heads/master.zip"
+                },
+                "require": {
+                    "composer/installers": "^1.2.0"
+                },
+                "type": "drupal-library"
+            }
+        },
+        "drupal-library/masonry": {
+            "3.3.1": {
+                "name": "drupal-library/masonry",
+                "version": "3.3.1",
+                "version_normalized": "3.3.1.0",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/desandro/masonry/archive/v3.3.1.zip"
+                },
+                "type": "drupal-library"
+            }
+        },
+        "drupal-library/selectivity": {
+            "3.1.0": {
+                "name": "drupal-library/selectivity",
+                "version": "3.1.0",
+                "version_normalized": "3.1.0.0",
+                "dist": {
+                    "type": "tar",
+                    "url": "https://github.com/arendjr/selectivity/releases/download/3.1.0/selectivity-3.1.0.tar.gz"
+                },
+                "require": {
+                    "composer/installers": "^1.2.0"
+                },
+                "type": "drupal-library"
+            }
+        },
+        "drupal/google_analytics_counter": {
+            "dev-3.x-custom": {
+                "name": "drupal/google_analytics_counter",
+                "version": "dev-3.x-custom",
+                "version_normalized": "dev-3.x-custom",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/fourkitchens/ga-counter-d9-ready.git",
+                    "reference": "58f4a7e007e542cf3aa48aa8b809746400ae0a3e"
+                },
+                "require": {
+                    "drupal/core": "^8 || ^9"
+                },
+                "type": "drupal-module"
+            }
+        },
+        "drupal/openkj": {
+            "dev-8.x-1.x": {
+                "name": "drupal/openkj",
+                "version": "dev-8.x-1.x",
+                "version_normalized": "dev-8.x-1.x",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/generalredneck/OpenKJ-Drupal-Integration.git",
+                    "reference": "4863dc2bba063d6e3aface4ef9b13086d3d2818f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/generalredneck/OpenKJ-Drupal-Integration/zipball/4863dc2bba063d6e3aface4ef9b13086d3d2818f",
+                    "reference": "4863dc2bba063d6e3aface4ef9b13086d3d2818f",
+                    "shasum": ""
+                },
+                "require": {
+                    "drupal/restui": "^1.16",
+                    "drupal/search_api": "^1.0"
+                },
+                "time": "2021-06-12T21:26:05+00:00",
+                "type": "drupal-module",
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "description": "OpenKJ Integration",
+                "homepage": "https://www.drupal.org/project/openkj",
+                "keywords": [
+                    "Drupal"
+                ],
+                "support": {
+                    "issues": "https://www.drupal.org/project/issues/openkj",
+                    "source": "http://cgit.drupalcode.org/openkj"
+                }
+            }
+        }
+    }
+}
